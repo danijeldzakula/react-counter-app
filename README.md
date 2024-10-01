@@ -13,9 +13,9 @@ This is a simple React.js application that uses Zustand for state management. Th
 ```bash 
 # Clone repository code 
 
-$ git clone <URL-OF-REPO>
+$ git clone https://github.com/danijeldzakula/react-counter-app.git
 
-$ cd <NAME-OF-REPO>
+$ cd react-counter-app
 ```
 
 ## Requirements
