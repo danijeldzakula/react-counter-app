@@ -2,6 +2,10 @@
   "name": "react-counter-app",
   "private": true,
   "version": "0.0.0",
+  "author": {
+    "name": "Dzakula Danijel",
+    "email": "danijeldzakula1991@gmail.com"
+  },
   "type": "module",
   "scripts": {
     "dev": "vite",
