@@ -5,11 +5,9 @@ body {
 .layout {
   padding: 50px;
   
-  & .layout__root {
-    background-color: red;
+  &.layout__root {
   }
 
-  & .layout__auth {
-    background-color: blue;
+  &.layout__auth {
   }
 }
