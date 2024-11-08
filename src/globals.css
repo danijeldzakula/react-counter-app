@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+}
+
+.layout {
+  padding: 50px;
+  
+  & .layout__root {
+    background-color: red;
+  }
+
+  & .layout__auth {
+    background-color: blue;
+  }
+}
