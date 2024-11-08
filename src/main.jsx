@@ -1,7 +1,20 @@
+import { StrictMode, Suspense } from 'react';
+import { ErrorBoundary } from 'react-error-boundary';
 import { createRoot } from 'react-dom/client';
-import App from './App.jsx';
-import './index.css';
+import ErrorFallback from './components/boundary/ErrorFallback';
+import App from './App';
 
-createRoot(document.getElementById('root')).render(
-    <App />
-)
+import './globals.css';
+
+const rootElement = document.getElementById('root');
+const root = createRoot(rootElement);
+
+root.render(
+    <StrictMode>  
+        <ErrorBoundary fallback={ErrorFallback}>
+            <Suspense fallback={<div>Loading...</div>}>
+                <App />
+            </Suspense>
+        </ErrorBoundary>
+    </StrictMode>
+);
