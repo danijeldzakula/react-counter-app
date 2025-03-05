@@ -10,8 +10,8 @@ This is a simple React.js application that uses Zustand for state management. Th
 
 ## Clone repo
 
-```bash 
-# Clone repository code 
+```bash
+# Clone repository code
 
 $ git clone https://github.com/danijeldzakula/react-counter-app.git
 
@@ -19,7 +19,8 @@ $ cd react-counter-app
 ```
 
 ## Requirements
- - Node.js >=20.0.0 and pnpm
+
+- Node.js >=20.0.0 and pnpm
 
 ## Before installation setup your Node.js
 
@@ -36,7 +37,7 @@ $ node --version
 ## Installation instructions
 
 ```bash
-# Install and run application 
+# Install and run application
 
 $ pnpm install
 ```
@@ -44,7 +45,7 @@ $ pnpm install
 ## Running the application
 
 ```bash
-# Run apps with command line 
+# Run apps with command line
 
 $ pnpm run dev
 ```
@@ -73,9 +74,25 @@ Here's an overview of the project structure:
   - services
   - shared
   - store
-  - types 
+  - types
   - utils
 ```
+
+## Commit message types
+
+`feat`: 🚀 New functionality.
+
+`fix`: 🐛 Bug fix.
+
+`chore`: 🧹 Maintenance, minor changes that do not affect the code.
+
+`docs`: 📚 Changes in documentation.
+
+`style`: 🎨 Changes that do not affect logic (e.g., formatting).
+
+`refactor`: 🛠️ Changes to the code that do not add new functionality or fixes.
+
+`test`: ✅ Adding or modifying tests.
 
 ## Development Rules
 
@@ -83,7 +100,7 @@ Here's an overview of the project structure:
 
 - Use camel case for file names.
 
-## 🚀 Features 
+## 🚀 Features
 
 - ⚡ [React.js](https://react.dev/) with React 18.
 - 🧰 Statem management with [Zustand](https://zustand-demo.pmnd.rs/) and [React Query](https://tanstack.com/query/latest/).
@@ -106,7 +123,6 @@ React.js is an MIT-licensed open source project. It can grow thanks to the spons
 ## 🪪 License
 
 React is [MIT licensed](https://github.com/facebook/react/blob/main/LICENSE).
-
 
 ## 📩 Let's Connect
 
